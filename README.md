@@ -56,15 +56,6 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg" height="40" alt="perl logo"  />
 </div>
-
-###
-
-<p align="left">Hello World!!</p>
-
-###
-
-<img src="https://raw.githubusercontent.com/iSholvedx/iSholvedx/output/snake.svg" alt="Snake animation" />
-
 ###
 
 <div>
