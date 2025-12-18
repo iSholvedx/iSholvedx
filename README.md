@@ -1,4 +1,4 @@
 - 👋 Hi, I’m [@iSholved](https://github.com/iSholvedx) A.K.A "Putra".
 - 👀 I’m interested in AI, ML, and Programming.
 - 🌱 I’m currently learning AI.
-- 📫 How to reach me iSholved@proton.me
+- 📫 How to reach me iSholvedx@gmail.com
