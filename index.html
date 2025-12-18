@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra- Cybersecurity Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="toast-container"></div>
+
+<!-- Loading Overlay -->
+<div id="loading-overlay">
+    <div class="loader"></div>
+    <p>Sending message...</p>
+</div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>BI<span>.</span></h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+    <li class="dropdown">
+        <a href="#">
+            Menu <i class="fas fa-chevron-down"></i>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </li>
+</ul>
+
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Barra <span>Ibrahim</span></h1>
+                <h3>Cybersecurity Specialist</h3>
+                <p>Protecting digital assets with 6+ years of expertise in threat detection, vulnerability assessment, and incident response.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-btns">
+                            <div class="terminal-btn close"></div>
+                            <div class="terminal-btn min"></div>
+                            <div class="terminal-btn max"></div>
+                        </div>
+                        <div class="terminal-title">Security Terminal</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line"><span class="prompt">$</span> whoami<br>Barra_Ibrahim</div>
+                        <div class="terminal-line"><span class="prompt">$</span> skills<br>[Threat Detection, Vulnerability Assessment, Incident Response, Network Security]</div>
+                        <div class="terminal-line"><span class="prompt">$</span> experience<br>6+ years learning | 2 years corporate</div>
+                        <div class="terminal-line"><span class="prompt">$</span> frameworks<br>[NIST, ISO 27001]</div>
+                        <div class="terminal-line typing-cursor">_</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Cybersecurity professional with 6+ years of focused learning and 2 years of hands-on corporate experience in threat detection, vulnerability assessment, network security, and incident response.</p>
+                    <p>Expertise in implementing and managing NIST and ISO 27001 frameworks, conducting penetration tests, and operating SIEM solutions. Strong background in secure infrastructure design, endpoint protection, and compliance.</p>
+                    <p>Dedicated to continuous improvement and staying current with emerging threats through certifications and experience.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Years Learning</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Years Corporate Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Security Projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul>
+                        <li>Postman</li>
+                        <li>sqlmap</li>
+                        <li>WireShark</li>
+                        <li>Nessus</li>
+                        <li>Metasploit</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>Go-lang</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Specializations</h3>
+                    <ul>
+                        <li>TCP/UDP Protocols</li>
+                        <li>Network Security</li>
+                        <li>Penetration Testing</li>
+                        <li>SIEM Solutions</li>
+                        <li>Compliance (NIST/ISO)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English</li>
+                        <li>Indonesian</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- <div class="project-card fade-in">
+                  <div class="project-icon">
+                      <i class="fas fa-code"></i>
+                  </div>
+                  <h3>Portfolio Website</h3>
+                  <p>A modern, clean, and responsive personal finance tracker web application built with HTML, CSS, and JavaScript. It features a secure cookie-based authentication system and supports user login, logout, account creation, and password reset with an additional PIN code for enhanced security, providing a safe and user-friendly experience.</p>
+                  <div class="project-tech">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                  </div>
+
+                  <!-- 🔥 View More Button 
+                  <a href="https://github.com/iSholvedx/Finance-Tracker/" class="project-btn">
+                      View More <i class="fas fa-arrow-right"></i>
+                  </a>
+              </div> -->
+              <div class="project-card fade-in">
+                  <div class="project-icon">
+                      <i class="fas fa-code"></i>
+                  </div>
+                  <h3>Stumble Guys ExploitGo</h3>
+                  <p>StumbleExploitGo is a proof-of-concept exploit written in Go that demonstrates how game network requests can be manipulated to repeatedly submit match results in Stumble Guys, potentially resulting in unlimited trophies.</p>
+
+                  <div class="project-tech">
+                      <span>Go Lang</span>
+                  </div>
+
+                  <!-- 🔥 View More Button -->
+                  <a href="https://github.com/iSholvedx/StumbleExploitGo" class="project-btn">
+                      View More <i class="fas fa-arrow-right"></i>
+                  </a>
+              </div><div class="project-card fade-in">
+                  <div class="project-icon">
+                      <i class="fas fa-code"></i>
+                  </div>
+                  <h3>TWB-SPAM</h3>
+                    <p>TWB‑SPAM is a proof‑of‑concept script designed to demonstrate how engagement metrics (views/subscribers) on Twibbonize can be artificially inflated by abusing weaknesses in client‑side validation and request handling.</p>
+
+                  <div class="project-tech">
+                      <span>Python</span>
+                  </div>
+
+                  <!-- 🔥 View More Button -->
+                  <a href="https://github.com/iSholvedx/TWB-SPAM" class="project-btn">
+                      View More <i class="fas fa-arrow-right"></i>
+                  </a>
+              </div>
+              <div class="project-card fade-in">
+                  <div class="project-icon">
+                      <i class="fas fa-code"></i>
+                  </div>
+                  <h3>AttackerAPI</h3>
+                    <p>AttackerAPI is a Node.js–based web application that demonstrates how an API manager can be controlled through a browser interface across multiple devices. The project includes a simple web UI, routing system, and configuration files for managing available methods and access keys.</p>
+                  
+                    <div class="project-tech">
+                      <span>Javascript</span>
+                      <span>CSS</span>
+                      <span>HTML</span>
+                      <span>Express.js</span>
+                  </div>
+
+                  <!-- 🔥 View More Button -->
+                  <a href="https://github.com/iSholvedx/AttackerAPI" class="project-btn">
+                      View More <i class="fas fa-arrow-right"></i>
+                  </a>
+              </div>
+              <div class="project-card fade-in">
+                  <div class="project-icon">
+                      <i class="fas fa-code"></i>
+                  </div>
+                  <h3>DDoS Tools (Educational)</h3>
+                    <p>A lightweight Node.js tool designed for exploring how HTTP/1.1 and HTTP/2 servers handle high volumes of concurrent requests. This project focuses on learning core networking concepts, understanding protocol behaviors, and experimenting with concurrency in a controlled, educational environment.</p>
+                    <div class="project-tech">
+                      <span>Javascript</span>
+                      <span>Python</span>
+                  </div>
+
+                  <!-- 🔥 View More Button -->
+                  <a href="https://github.com/iSholvedx/BasicDDoS/" class="project-btn">
+                      View More <i class="fas fa-arrow-right"></i>
+                  </a>
+              </div>
+              <div class="project-card fade-in">
+                  <div class="project-icon">
+                      <i class="fas fa-code"></i>
+                  </div>
+                  <h3>Nawala URL Checker</h3>
+                    <p>A Python-based utility designed to check whether a website is blocked by Nawala, Indonesia’s internet content filtering system. This tool helps users verify the accessibility of web resources and provides quick insights into potential network restrictions.</p>
+                    <div class="project-tech">
+                      <span>Python</span>
+                  </div>
+
+                  <!-- 🔥 View More Button -->
+                  <a href="https://github.com/iSholvedx/NawalaChecker/" class="project-btn">
+                      View More <i class="fas fa-arrow-right"></i>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Have a security challenge or want to discuss a project? Feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>isholvedx@gmail.ccom</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin-in"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/barra-ibrahim</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/iSholvedx</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Barra Ibrahim. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/barraibrahim"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/putra.strxt/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/iSholvedx"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
